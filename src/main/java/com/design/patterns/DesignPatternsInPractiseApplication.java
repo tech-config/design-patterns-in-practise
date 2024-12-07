@@ -1,13 +1,13 @@
-package com.design.patterns.design_pattern_in_practise;
+package com.design.patterns;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DesignPatternInPractiseApplication {
+public class DesignPatternsInPractiseApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DesignPatternInPractiseApplication.class, args);
+		SpringApplication.run(DesignPatternsInPractiseApplication.class, args);
 	}
 
 }

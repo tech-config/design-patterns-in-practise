@@ -1,0 +1,7 @@
+*.class
+*.properties
+*.jar
+*.lst
+.idea
+*.xml
+*.jar.original
