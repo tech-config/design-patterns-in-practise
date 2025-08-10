@@ -1,6 +1,8 @@
 package com.design.patterns.facade.hometheatre;
 
 import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.Arrays;
 
@@ -8,6 +10,8 @@ import static java.util.Optional.ofNullable;
 
 @Slf4j
 public abstract class HomeTheatre {
+
+    private static final Logger log = LoggerFactory.getLogger(HomeTheatre.class);
 
     public void powerOff(ItemOperation itemOperation) {
         ofNullable(operate(itemOperation))
